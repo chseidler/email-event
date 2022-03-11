@@ -4,6 +4,7 @@ import com.chseidler.emailevent.dtos.EmailDto;
 import com.chseidler.emailevent.models.EmailModel;
 import com.chseidler.emailevent.services.EmailService;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,6 +16,7 @@ import javax.validation.Valid;
 @RestController
 public class EmailController {
 
+    @Autowired
     EmailService emailService;
 
     @PostMapping("/sending-email")
