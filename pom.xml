@@ -12,7 +12,7 @@
 	<artifactId>email-event</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>email-event</name>
-	<description>Send a email when a event happens</description>
+	<description>Send an email when an event happens</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
